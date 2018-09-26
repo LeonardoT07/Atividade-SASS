@@ -1,0 +1,5 @@
+.navbar-barra {
+	width: 100%;
+	border: 1px solid $navbar-border-color;
+	@extend %base_navbar;
+}

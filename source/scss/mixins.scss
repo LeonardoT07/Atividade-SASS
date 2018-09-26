@@ -1,0 +1,13 @@
+@mixin muda_cor ($background-cor, $color-link){
+	background-color: $background-cor;
+	a {
+		color: $color-link;
+	}
+}
+
+@mixin links ($link-size, $link-color, $link-weight, $decoracao:none){
+		font-size: $link-size;
+		color: $link-color;
+		font-weight: $link-weight;
+		text-decoration: $decoracao;
+}

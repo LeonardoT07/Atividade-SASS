@@ -1,0 +1,14 @@
+.navbar-brand {
+	@extend %base_navbar;
+	width: 15%;
+	float: left;
+
+	a {
+		position: absolute;
+		padding: 5px;
+		margin: 15px 30px;
+
+		@include links(1.5em, $navbar-links-color, bold);
+	}
+}
+
